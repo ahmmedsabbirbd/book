@@ -91,7 +91,7 @@ Note: If you encounter any issues while installing or running the project locall
      
           composer global require laravel/installer
  
-          laravel new example-app
+          laravel new book
 4. ## Type my terminal and run  http://127.0.0.1:8000 This port
      bash
      
