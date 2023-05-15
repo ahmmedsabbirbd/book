@@ -25,7 +25,7 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 
 ## Description
 
-The book is a simple Laravel project. I include Routing practice, Folder Structure, and Laravel Installation.
+The book is a simple Laravel project and updated versioin. I include Routing practice, Folder Structure, and Laravel Installation.
 
 ## Features
 | Key Features                | Description                                                  |
