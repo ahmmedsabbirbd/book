@@ -14,6 +14,7 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Document the steps you took to install Laravel](#document-the-steps-you-took-to-install-laravel)
 - [Laravel Folder Structure](#laravel-folder-structure)
 - [Simple Route](#simple-route)
 - [Usage](#usage)
@@ -75,6 +76,27 @@ bash
 This will start the server and the application will be available at http://localhost:8000/.
 
 Note: If you encounter any issues while installing or running the project locally, please refer to the project's documentation or reach out to the project maintainers for assistance.
+
+## Document the steps you took to install Laravel
+
+1. ## Open Laravel official web site
+     ![Open Laravel official web site](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-offical-website.png)
+
+2. ## Click Documentation
+     ![Click Documentation](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-offical-website-documetation.png)
+3. ## Copy the code and paste my terminal
+
+     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/install-command.png)
+     bash
+     
+          composer global require laravel/installer
+ 
+          laravel new example-app
+4. ## Type my terminal and run  http://127.0.0.1:8000 This port
+     bash
+     
+          php artisan serve
+ 
 
 ## Laravel Folder Structure
 
