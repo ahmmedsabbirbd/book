@@ -38,7 +38,7 @@ The book is a simple Laravel project and updated versioin. I include Routing pra
 ## Demo
 Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)](https://www.youtube.com/watch?v=xcJtL7QggTI)
+[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)](https://youtu.be/RYAh3rSyWHs)
 
 ## Technologies Used
 
