@@ -15,6 +15,7 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Laravel Folder Structure](#laravel-folder-structure)
+- [Simple Route](#simple-route)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
@@ -101,6 +102,15 @@ Note: If you encounter any issues while installing or running the project locall
      This folder contains all of the third-party packages that your Laravel application depends on, including the Laravel framework itself.
 
 
+## Simple Route
+
+1. ### I create simple route and it's named "world".
+
+![Simple Route](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/world.png)
+
+2. ### return "Hello, World".
+
+![Simple Route Output](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/world-output.png)
 ## Usage
 
 ### Getting Started
