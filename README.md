@@ -1,11 +1,11 @@
 # Book | Laravel Installation and Folder Structure and Routing
-[Live Link](https://bmi-calculator-ostad.netlify.app)
+<!-- [Live Link](https://bmi-calculator-ostad.netlify.app) -->
 
-A BMI Calculator is a tool used to calculate a person's Body Mass Index (BMI) based on their weight and height measurements. BMI is a numerical value of a person's weight in relation to their height, and it is commonly used to determine if a person is underweight, normal weight, overweight, or obese.
+The book is a simple Laravel project. I include Routing practice, Folder Structure, and Laravel Installation.
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
-![BMI Calculator](https://raw.githubusercontent.com/ahmmedsabbirbd/bmi-calculator/master/images/documentation/home.png)
+![Laravel Properly Install](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
 
 ## Table of Contents
 
@@ -23,44 +23,36 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 
 ## Description
 
-The BMI formula used in the calculator is BMI = weight (kg) / (height (m) * height (m)). After the user inputs their weight and height in the form, they can click on the "Calculate BMI" button to get their BMI result. The result is displayed on the web page under the form.
+The book is a simple Laravel project. I include Routing practice, Folder Structure, and Laravel Installation.
 
 ## Features
 | Key Features                | Description                                                  |
-| ---------------------------| ------------------------------------------------------------ |
-|  Real-time calculation     | Real-time calculation of BMI as soon as the user enters their weight and height values. |
-|  Displayed Result     | Results displayed clearly on the page, showing the user's BMI and indicating whether it falls within the underweight, normal, overweight, or obese range. |
-|  Users Friendly     | User-friendly interface with clear labels and input fields for weight and height. |
-| Disabilities     | My website is accessible to all users, including those with disabilities |
-| Seo Friendly Website      | All need meta tag includes |
-|  Open Source     | Open source code that can be easily customized and adapted to fit different needs. |
-| Cros Browers Supported     | My website is all browser supported like Google Chrome, Mozilla Firefox, Safari (Apple), Microsoft Edge (previously Internet Explorer), Opera |
+| ---------------------------| ------------------------------------------------------------ | 
+|  Mobile Friendly (Responsived)     | All device Responsived |
 |  Mobile Friendly (Responsived)     | All device Responsived |
 
 
 ## Demo
-Project home page
+Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/bmi-calculator/master/images/documentation/home.png)](https://www.youtube.com/watch?v=xcJtL7QggTI)
+[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)](https://www.youtube.com/watch?v=xcJtL7QggTI)
 
 ## Technologies Used
 
 List the technologies, libraries, frameworks, or languages that you used to build your project. You can also provide links to their official websites or documentation.
 
-- Javascript
-- CSS
-- HTML
+- Laravel
 ## Installation
 
-Clone the repository to your local machine:
+Clone the repository to your local machine
 
-    bash
+bash
 
-    git clone https://github.com/ahmmedsabbirbd/bmi-calculator.git
+    git clone https://github.com/ahmmedsabbirbd/book.git
 
-<!-- Install the necessary dependencies by running the following command in the project directory:
+Install the necessary dependencies by running the following command in the project directory:
 
-npm install
+composer install
 
 This will install all the required packages and dependencies needed to run the project.
 Create a .env file in the root of the project and add the required environment variables. These variables may include database credentials, API keys, and other configuration details. You can find the list of required environment variables in the project's README.md file.
@@ -68,11 +60,9 @@ Start the development server by running the following command:
 
 npm
 
-    npm start -->
-Open Vs code and Run live Server
+    composer artisan serve
 
-This will start the server and the application will be available at http://localhost:3000/.
-Open a web browser and navigate to http://localhost:3000/ to view the application.
+This will start the server and the application will be available at http://localhost:8000/.
 
 Note: If you encounter any issues while installing or running the project locally, please refer to the project's documentation or reach out to the project maintainers for assistance.
 
