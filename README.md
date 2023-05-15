@@ -101,6 +101,8 @@ Note: If you encounter any issues while installing or running the project locall
  
 
 ## Laravel Folder Structure
+     
+![Laravel Folder Structure](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/folder-structure.png)
 
 1. ### `app`:
      This folder contains the core of your Laravel application, including its models, controllers, service providers, and other application-specific code.
