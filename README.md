@@ -71,7 +71,7 @@ Start the development server by running the following command:
 
 bash
 
-    composer artisan serve
+    php artisan serve
 
 This will start the server and the application will be available at http://localhost:8000/.
 
