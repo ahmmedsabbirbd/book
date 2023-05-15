@@ -5,7 +5,7 @@ The book is a simple Laravel project. I include Routing practice, Folder Structu
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
-![Laravel Properly Install](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
+![Laravel Properly Installed](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
 
 ## Table of Contents
 
@@ -28,8 +28,9 @@ The book is a simple Laravel project. I include Routing practice, Folder Structu
 ## Features
 | Key Features                | Description                                                  |
 | ---------------------------| ------------------------------------------------------------ | 
-|  Mobile Friendly (Responsived)     | All device Responsived |
-|  Mobile Friendly (Responsived)     | All device Responsived |
+|  Laravel Installation  | Laravel Properly Installed |
+|  Folder Structure     | Explain Properly of Folder Structure |
+|  Routing     | Baic Routing Explain |
 
 
 ## Demo
@@ -50,15 +51,23 @@ bash
 
     git clone https://github.com/ahmmedsabbirbd/book.git
 
+Open Project folder:
+
+bash
+
+     cd book
+
 Install the necessary dependencies by running the following command in the project directory:
 
-composer install
+bash
+
+     composer install
 
 This will install all the required packages and dependencies needed to run the project.
 Create a .env file in the root of the project and add the required environment variables. These variables may include database credentials, API keys, and other configuration details. You can find the list of required environment variables in the project's README.md file.
 Start the development server by running the following command:
 
-npm
+bash
 
     composer artisan serve
 
@@ -95,7 +104,7 @@ Note: If you encounter any issues while installing or running the project locall
 ## Usage
 
 ### Getting Started
-To get started with BMI Calculator, you will need to follow the installation instructions in the previous section.
+To get started with Book, you will need to follow the installation instructions in the previous section.
 
 ## API Documentation
 Did not Provide any API
