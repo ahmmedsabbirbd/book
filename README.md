@@ -1,7 +1,7 @@
 # Book | Laravel Installation and Folder Structure and Routing
 <!-- [Live Link](https://bmi-calculator-ostad.netlify.app) -->
 
-The book is a simple Laravel project. I include Routing practice, Folder Structure, and Laravel Installation.
+The book is a simple Laravel project and updated versioin. I include Routing practice, Folder Structure, and Laravel Installation.
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
@@ -96,6 +96,8 @@ Note: If you encounter any issues while installing or running the project locall
      bash
      
           php artisan serve
+     
+     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
  
 
 ## Laravel Folder Structure
