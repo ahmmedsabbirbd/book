@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 use Psy\Readline\Hoa\Console;
 
 class BookController extends Controller
@@ -32,7 +33,7 @@ class BookController extends Controller
     ];
 
     // GET
-    public function books(Request $request){
+    public function books(Request $request): array {
         $limit = $request->query('limit', 0);
 
         if($limit == 0) {
@@ -44,14 +45,14 @@ class BookController extends Controller
     }
 
     // GET
-    public function getbook($id) {
+    public function getbook($id): array {
         $bookId = $id - 1;
         
         return $this->books[$bookId];
     }
     
     // GET
-    public function getbookField($id, $field) {
+    public function getbookField($id, $field): string {
         $bookId = $id - 1;
         $book = $this->books[$bookId];
 
@@ -59,14 +60,14 @@ class BookController extends Controller
     }
 
     // POST
-    public function createBook(Request $request) {
+    public function createBook(Request $request): string {
         $title = $request->get('title');
         $author = $request->get('author');
         return "title: {$title}. author: {$author}";
     }
     
     // POST
-    public function getHeader(Request $request) {
+    public function getHeader(Request $request): string {
         $UserAgent = $request->header('User-Agent'); 
         $token = $request->header('token', 'deynai'); 
         return "User-Agent: {$UserAgent}. token {$token}";
