@@ -45,14 +45,18 @@ class BookController extends Controller
     }
 
     // GET
-    public function getbook($id): array {
+    public function getbook(Request $request): array {
+        $id = $request->id;
         $bookId = $id - 1;
         
         return $this->books[$bookId];
     }
     
     // GET
-    public function getbookField($id, $field): string {
+    public function getbookField(Request $request): string {
+        $id = $request->id;
+        $field = $request->field;
+
         $bookId = $id - 1;
         $book = $this->books[$bookId];
 
