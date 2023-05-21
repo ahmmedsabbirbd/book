@@ -5,7 +5,7 @@ The book is a simple Laravel project and updated versioin. I include Routing pra
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
-![Laravel Properly Installed](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
+![Laravel Properly Installed](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-install.png)
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ The book is a simple Laravel project and updated versioin. I include Routing pra
 ## Demo
 Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)](https://youtu.be/RYAh3rSyWHs)
+[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-install.png)](https://youtu.be/RYAh3rSyWHs)
 
 ## Technologies Used
 
@@ -80,13 +80,13 @@ Note: If you encounter any issues while installing or running the project locall
 ## Document the steps you took to install Laravel
 
 1. ## Open Laravel official web site
-     ![Open Laravel official web site](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-offical-website.png)
+     ![Open Laravel official web site](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-offical-website.png)
 
 2. ## Click Documentation
-     ![Click Documentation](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-offical-website-documetation.png)
+     ![Click Documentation](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-offical-website-documetation.png)
 3. ## Copy the code and paste my terminal
 
-     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/install-command.png)
+     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/install-command.png)
      bash
      
           composer global require laravel/installer
@@ -97,12 +97,12 @@ Note: If you encounter any issues while installing or running the project locall
      
           php artisan serve
      
-     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/laravel-install.png)
+     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-install.png)
  
 
 ## Laravel Folder Structure
      
-![Laravel Folder Structure](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/folder-structure.png)
+![Laravel Folder Structure](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/folder-structure.png)
 
 1. ### `app`:
      This folder contains the core of your Laravel application, including its models, controllers, service providers, and other application-specific code.
@@ -132,11 +132,11 @@ Note: If you encounter any issues while installing or running the project locall
 
 1. ### I create simple route and it's named "world".
 
-     ![Simple Route](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/world.png)
+     ![Simple Route](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/world.png)
 
 2. ### return "Hello, World".
 
-     ![Simple Route Output](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/documentation/world-output.png)
+     ![Simple Route Output](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/world-output.png)
 ## Usage
 
 ### Getting Started
